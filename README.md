@@ -45,8 +45,9 @@ The following shows the sheet.
 
 Tapping the gray bar on the top of the sheet will close the sheet.
 
-The following shows the main screen of this app.
+The following shows the main screen of this app. Tapping the Add button on the top will show the AddItem sheet.
 
-![image](https://user-images.githubusercontent.com/15805568/142751749-5a06f4f4-b81a-4121-8557-7d0378ba0e4f.png)
+![image](https://user-images.githubusercontent.com/15805568/142751795-112182ce-ab4e-47e2-8643-8f0e72bc876e.png)
 
 
+```
