@@ -4,7 +4,7 @@ import SwiftUI
 struct FlexibleSheetApp: App {
     var body: some Scene {
         WindowGroup {
-            ItemListView()
+            ContentView()
         }
     }
 }
