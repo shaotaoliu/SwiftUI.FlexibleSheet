@@ -49,5 +49,19 @@ The following shows the main screen of this app. Tapping the Add button on the t
 
 ![image](https://user-images.githubusercontent.com/15805568/142751795-112182ce-ab4e-47e2-8643-8f0e72bc876e.png)
 
+In the Others folder, I provide a better solution by creating a FlexibleSheet ViewModifier. It is easier to use this ViewModifier. See below.
 
+```Swift
+struct TestView2: View {
+    @State var showSheet = false
+    
+    var body: some View {
+        Button("Show Sheet") {
+            showSheet = true
+        }
+        .flexiableSheet(isPresented: $showSheet) {
+            Text("This is a sheet")
+        }
+    }
+}
 ```
