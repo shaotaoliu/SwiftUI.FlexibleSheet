@@ -51,10 +51,10 @@
 		4AF232E7274A2AD200BB1094 /* Others */ = {
 			isa = PBXGroup;
 			children = (
-				4AF232E8274A2B6100BB1094 /* AddValueSheet.swift */,
-				4AF2330A274A344100BB1094 /* FlexibleSheet.swift */,
 				4AF2330C274A345B00BB1094 /* ItemListView.swift */,
+				4AF2330A274A344100BB1094 /* FlexibleSheet.swift */,
 				4AF232EA274A2B8900BB1094 /* MainView.swift */,
+				4AF232E8274A2B6100BB1094 /* AddValueSheet.swift */,
 				4AF232E5274A17C600BB1094 /* TestView.swift */,
 			);
 			path = Others;
