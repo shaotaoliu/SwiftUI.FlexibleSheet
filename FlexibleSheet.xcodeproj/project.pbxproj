@@ -10,6 +10,10 @@
 		4AF232E2274A09B700BB1094 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AF232E1274A09B700BB1094 /* ViewModel.swift */; };
 		4AF232E4274A0D6600BB1094 /* AddItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AF232E3274A0D6600BB1094 /* AddItemView.swift */; };
 		4AF232E6274A17C600BB1094 /* TestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AF232E5274A17C600BB1094 /* TestView.swift */; };
+		4AF232E9274A2B6100BB1094 /* AddValueSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AF232E8274A2B6100BB1094 /* AddValueSheet.swift */; };
+		4AF232EB274A2B8900BB1094 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AF232EA274A2B8900BB1094 /* MainView.swift */; };
+		4AF2330B274A344100BB1094 /* FlexibleSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AF2330A274A344100BB1094 /* FlexibleSheet.swift */; };
+		4AF2330D274A345B00BB1094 /* ItemListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AF2330C274A345B00BB1094 /* ItemListView.swift */; };
 		4AF4F04427496E0E00557E3D /* FlexibleSheetApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AF4F04327496E0E00557E3D /* FlexibleSheetApp.swift */; };
 		4AF4F04627496E0E00557E3D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AF4F04527496E0E00557E3D /* ContentView.swift */; };
 		4AF4F04827496E1200557E3D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4AF4F04727496E1200557E3D /* Assets.xcassets */; };
@@ -21,6 +25,10 @@
 		4AF232E1274A09B700BB1094 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 		4AF232E3274A0D6600BB1094 /* AddItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddItemView.swift; sourceTree = "<group>"; };
 		4AF232E5274A17C600BB1094 /* TestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestView.swift; sourceTree = "<group>"; };
+		4AF232E8274A2B6100BB1094 /* AddValueSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddValueSheet.swift; sourceTree = "<group>"; };
+		4AF232EA274A2B8900BB1094 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		4AF2330A274A344100BB1094 /* FlexibleSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlexibleSheet.swift; sourceTree = "<group>"; };
+		4AF2330C274A345B00BB1094 /* ItemListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemListView.swift; sourceTree = "<group>"; };
 		4AF4F04027496E0E00557E3D /* FlexibleSheet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlexibleSheet.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4AF4F04327496E0E00557E3D /* FlexibleSheetApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlexibleSheetApp.swift; sourceTree = "<group>"; };
 		4AF4F04527496E0E00557E3D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -40,6 +48,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4AF232E7274A2AD200BB1094 /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				4AF232E8274A2B6100BB1094 /* AddValueSheet.swift */,
+				4AF2330A274A344100BB1094 /* FlexibleSheet.swift */,
+				4AF2330C274A345B00BB1094 /* ItemListView.swift */,
+				4AF232EA274A2B8900BB1094 /* MainView.swift */,
+				4AF232E5274A17C600BB1094 /* TestView.swift */,
+			);
+			path = Others;
+			sourceTree = "<group>";
+		};
 		4AF4F03727496E0E00557E3D = {
 			isa = PBXGroup;
 			children = (
@@ -64,7 +84,7 @@
 				4AF232E3274A0D6600BB1094 /* AddItemView.swift */,
 				4AF4F05127496E4300557E3D /* ViewWithSheet.swift */,
 				4AF232E1274A09B700BB1094 /* ViewModel.swift */,
-				4AF232E5274A17C600BB1094 /* TestView.swift */,
+				4AF232E7274A2AD200BB1094 /* Others */,
 				4AF4F04727496E1200557E3D /* Assets.xcassets */,
 				4AF4F04927496E1200557E3D /* Preview Content */,
 			);
@@ -150,10 +170,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				4AF232E6274A17C600BB1094 /* TestView.swift in Sources */,
+				4AF232EB274A2B8900BB1094 /* MainView.swift in Sources */,
+				4AF232E9274A2B6100BB1094 /* AddValueSheet.swift in Sources */,
 				4AF232E2274A09B700BB1094 /* ViewModel.swift in Sources */,
 				4AF4F04627496E0E00557E3D /* ContentView.swift in Sources */,
+				4AF2330D274A345B00BB1094 /* ItemListView.swift in Sources */,
 				4AF4F04427496E0E00557E3D /* FlexibleSheetApp.swift in Sources */,
 				4AF4F05227496E4300557E3D /* ViewWithSheet.swift in Sources */,
+				4AF2330B274A344100BB1094 /* FlexibleSheet.swift in Sources */,
 				4AF232E4274A0D6600BB1094 /* AddItemView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
