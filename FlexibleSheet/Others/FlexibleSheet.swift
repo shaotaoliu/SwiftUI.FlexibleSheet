@@ -19,7 +19,9 @@ struct FlexibleSheet<SheetContent: View>: ViewModifier {
                             .padding(10)
                             .padding(.bottom, 10)
                             .onTapGesture {
-                                isPresented = false
+                                withAnimation {
+                                    isPresented = false
+                                }
                             }
                         
                         sheetContent()
